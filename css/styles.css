@@ -53,90 +53,77 @@ h1, h2, h3, p {
 }
 
 /* ====== HERO SECTION ====== */
-.hero {
-  text-align: center;
-  background-color: #2e2f42;
-  color: #ffffff;
-}
-
 .hero h1 {
   font-size: 56px;
   line-height: 1.07;
-  margin-bottom: 48px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .hero button {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  border: none;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-.hero button:hover,
-.hero button:focus {
-  background-color: #404bbf;
-}
-
-/*ADVANTAGES*/
+/* ====== ADVANTAGES ====== */
 .advantages h3 {
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 8px;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .advantages p {
-  color: #434455;
-  max-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-/*OUR TEAM*/
-.our-team {
-  background-color: #f4f4fd;
-  text-align: center;
-}
-
+/* ====== OUR TEAM ====== */
 .our-team h2 {
   font-size: 36px;
   line-height: 1.11;
-  margin-bottom: 72px;
-  color: #2e2f42;
-}
-
-.our-team h3 {
-  margin-top: 32px;
-  margin-bottom: 8px;
-  font-weight: 500;
-}
-
-.our-team p {
-  color: #434455;
-}
-
-/*OUR PORTFOLIO*/
-.our-portfolio {
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
+.our-team h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.our-team p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ====== OUR PORTFOLIO ====== */
 .our-portfolio h2 {
   font-size: 36px;
-  margin-bottom: 72px;
-  color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .our-portfolio h3 {
   font-size: 20px;
   font-weight: 500;
-  margin: 16px 0 8px;
-  color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .our-portfolio p {
-  color: #434455;
-  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
 
 /*FOOTER*/
 :root {
