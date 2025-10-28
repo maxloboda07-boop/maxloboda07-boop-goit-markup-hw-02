@@ -94,7 +94,7 @@ header {
   background-color: #404bbf;
 }
 
-/* ====== ADVANTAGES ====== */
+/*ADVANTAGES*/
 .advantages {
   padding: 120px 0;
 }
@@ -117,7 +117,7 @@ header {
   max-width: 264px;
 }
 
-/* ====== OUR TEAM ====== */
+/*OUR TEAM*/
 .our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -156,7 +156,7 @@ header {
   color: #434455;
 }
 
-/* ====== OUR PORTFOLIO ====== */
+/*OUR PORTFOLIO*/
 .our-portfolio {
   padding: 120px 0;
   text-align: center;
@@ -197,7 +197,7 @@ header {
   margin-bottom: 16px;
 }
 
-/* ====== FOOTER ====== */
+/*FOOTER*/
 :root {
   --text-light: #F4F4FD;
 }
