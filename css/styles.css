@@ -99,6 +99,7 @@ h1, h2, h3, p {
   letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
+  cursor: pointer 
 }
 
 .hero-button:hover,
