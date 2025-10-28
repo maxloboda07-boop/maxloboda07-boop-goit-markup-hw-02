@@ -125,14 +125,19 @@ h1, h2, h3, p {
 }
 
 /*OUR TEAM*/
+.our-team {
+  background-color: #ffffff; 
+}
+
 .team-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
-.team-member-name {
+.team-member h3.member-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -140,12 +145,13 @@ h1, h2, h3, p {
   color: #2e2f42;
 }
 
-.team-member-role {
+.team-member p.member-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 
 /*OUR PORTFOLIO*/
 .our-portfolio {
