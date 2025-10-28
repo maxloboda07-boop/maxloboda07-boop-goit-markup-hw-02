@@ -35,15 +35,18 @@ h1, h2, h3, p {
   color: #4d5ae5;
   text-decoration: none;
 }
+
 .site-logo .logo-span-header {
   color: #2e2f42;
 }
 
 .main-nav a {
-  color: #2e2f42;
-  font-weight: 500;
+  font-weight: 500; 
+  font-size: 16px; 
+  line-height: 1.5; 
+  letter-spacing: 0.02em; 
+  color: #2e2f42; 
 }
-
 .main-nav a:hover,
 .main-nav a:focus {
   color: #404bbf;
