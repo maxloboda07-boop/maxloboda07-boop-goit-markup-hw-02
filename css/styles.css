@@ -72,7 +72,6 @@ h1, h2, h3, p {
 .hero-section {
   background-color: #2e2f42;
   text-align: center;
-  padding: 60px 20px;
 }
 
 .hero-title {
@@ -89,9 +88,7 @@ h1, h2, h3, p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
   border: none;
-  padding: 10px 20px;
 }
 
 .hero-button:hover,
