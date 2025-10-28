@@ -24,31 +24,35 @@ h1, h2, h3, p {
   margin: 0;
 }
 
-/* HEADER */
+/*HEADER*/
+/* LOGO (header і footer) */
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+  font-family: "Raleway", sans-serif; 
+  font-weight: 700;                  
+  font-size: 18px;                   
+  line-height: 1.17;                 
+  letter-spacing: 0.03em;             
+  text-transform: uppercase;          
+  color: #4d5ae5;                    
+  text-decoration: none;
 }
 
 .studio {
-  color: #2e2f42;
+  color: #2e2f42; /* колір тексту Studio */
 }
 
 .logo-span-footer {
-  color: #f4f4fd;
+  color: #f4f4fd; /* колір тексту Studio у футері */
 }
 
+/* NAV */
 .main-nav a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .main-nav a:hover,
@@ -56,39 +60,49 @@ h1, h2, h3, p {
   color: #404bbf;
 }
 
-.contacts .contact-link {
+/* Address */
+.contacts {
+  font-style: normal;
+}
+
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 
-.contacts .contact-link:hover,
-.contacts .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
-/* HERO */
+
+/*HERO SECTION*/
 .hero-section {
   background-color: #2e2f42;
-  text-align: center;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-button {
-  margin-top: 20px;
   background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
   border: none;
+  padding: 10px 20px;
 }
 
 .hero-button:hover,
@@ -96,32 +110,23 @@ h1, h2, h3, p {
   background-color: #404BBF;
 }
 
-/* SECTION 1 - ADVANTAGES */
-.advantages {
-  background-color: #ffffff;
-  padding: 60px 20px;
-}
 
+/*ADVANTAGES*/
 .advantages h3 {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .advantages p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-  margin-top: 8px;
 }
 
-/* SECTION 2 - OUR TEAM */
+/*OUR TEAM*/
 .our-team {
-  background-color: #ffffff;
-  padding: 60px 20px;
+  background-color: #ffffff; 
 }
 
 .team-title {
@@ -130,10 +135,9 @@ h1, h2, h3, p {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 40px;
 }
 
-.member-name {
+.team-member h3.member-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -141,18 +145,21 @@ h1, h2, h3, p {
   color: #2e2f42;
 }
 
-.member-role {
+.team-member p.member-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 4px;
 }
 
-/* SECTION 3 - OUR PORTFOLIO */
+
+/*OUR PORTFOLIO*/
 .our-portfolio {
   background-color: #F4F4FD;
-  padding: 60px 20px;
+}
+
+.portfolio-item {
+  background-color: #FFFFFF;
 }
 
 .portfolio-title {
@@ -161,13 +168,6 @@ h1, h2, h3, p {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 40px;
-}
-
-.portfolio-item {
-  background-color: #FFFFFF;
-  padding: 20px;
-  margin-bottom: 20px;
 }
 
 .portfolio-name {
@@ -177,7 +177,6 @@ h1, h2, h3, p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-top: 10px;
 }
 
 .portfolio-type {
@@ -185,20 +184,20 @@ h1, h2, h3, p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 4px;
 }
 
-/* FOOTER */
+/*FOOTER*/
+:root {
+  --text-light: #F4F4FD;
+}
+
 .site-footer {
   background-color: #2e2f42;
   color: var(--text-light);
-  padding: 40px 20px;
-  text-align: center;
 }
-
 .footer-desc {
   max-width: 264px;
-  margin: 10px auto 0;
   line-height: 1.5;
+  color: var(--text-light);
   letter-spacing: 0.02em;
 }
