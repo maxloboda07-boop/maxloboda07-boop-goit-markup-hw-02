@@ -52,21 +52,52 @@ h1, h2, h3, p {
   color: #404bbf;
 }
 
-/*HERO SECTION*/
-.hero h1 {
-  font-size: 56px;
-  line-height: 1.07;
+.contacts {
+  font-style: normal;
+}
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+  color: #434455;
 }
 
-.hero button {
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+/*HERO SECTION*/
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-button {
+  background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: #ffffff;
   cursor: pointer;
+  border: none;
+  padding: 10px 20px;
 }
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404BBF;
+}
+
 
 /*ADVANTAGES*/
 .advantages h3 {
