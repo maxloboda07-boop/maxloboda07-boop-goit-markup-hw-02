@@ -95,24 +95,24 @@ header {
 }
 
 /* ====== ADVANTAGES ====== */
-.Advantages {
+.advantages {
   padding: 120px 0;
 }
 
-.Advantages ul {
+.advantages ul {
   display: flex;
   gap: 24px;
   justify-content: center;
 }
 
-.Advantages h3 {
+.advantages h3 {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 8px;
   color: #2e2f42;
 }
 
-.Advantages p {
+.advantages p {
   color: #434455;
   max-width: 264px;
 }
