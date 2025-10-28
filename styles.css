@@ -1,7 +1,7 @@
-/* ====== RESET & BASE ====== */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css');
-
+ 
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -170,12 +170,12 @@ header a {
 
 .our-portfolio li {
   background-color: #ffffff;
-  border: 1px solid #e7e9fc;
+  border: 1px solid #a4a4a4;
   transition: box-shadow 0.3s ease;
 }
 
 .our-portfolio li:hover {
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
 }
 
 .our-portfolio h3 {
