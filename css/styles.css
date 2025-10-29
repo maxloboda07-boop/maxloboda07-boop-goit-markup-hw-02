@@ -128,7 +128,7 @@ h1, h2, h3, p {
 
 /*OUR TEAM*/
 .our-team {
-  background-color: #ffffff; 
+  background-color: #F4F4FD; 
 }
 
 .team-title {
@@ -137,20 +137,26 @@ h1, h2, h3, p {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
-.team-member h3.member-name {
-  font-size: 20px;
-  font-weight: 500;       
-  line-height: 1.2;       
-  letter-spacing: 0.02em; 
-  color: #2e2f42;         
+.team-member {
+  background-color: #FFFFFF;
 }
-  .team-member p.member-role {
-  font-size: 16px;      
-  line-height: 1.5;       
-  letter-spacing: 0.02em; 
-  color: #434455;        
+
+.member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.member-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 
