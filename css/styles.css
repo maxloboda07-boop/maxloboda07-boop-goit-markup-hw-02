@@ -122,6 +122,16 @@ h1, h2, h3, p {
 
 
 /*ADVANTAGES*/
+.advantages h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .advantage-title {
   font-weight: 500;
   font-size: 20px;
