@@ -23,7 +23,6 @@ h1, h2, h3, p {
   margin: 0;
 }
 
-/*HEADER*/
 /* LOGO (header і footer) */
 .logo {
   font-family: "Raleway", sans-serif; 
@@ -36,11 +35,11 @@ h1, h2, h3, p {
   text-decoration: none;
 }
 
-.studio {
+.logo .studio {
   color: #2e2f42; /* колір тексту Studio */
 }
 
-.logo-span-footer {
+.logo .logo-span-footer {
   color: #f4f4fd; /* колір тексту Studio у футері */
 }
 
