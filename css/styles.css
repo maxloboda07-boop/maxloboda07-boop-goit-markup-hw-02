@@ -17,13 +17,15 @@ a {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3, p {
   margin: 0;
 }
 
-/* LOGO (header і footer) */
+/*HEADER*/
+/* LOGO */
 .logo {
   font-family: "Raleway", sans-serif; 
   font-weight: 700;                  
@@ -35,16 +37,16 @@ h1, h2, h3, p {
   text-decoration: none;
 }
 
-.logo .studio {
-  color: #2e2f42; /* колір тексту Studio */
+.studio {
+  color: #2e2f42;
 }
 
-.logo .logo-span-footer {
-  color: #f4f4fd; /* колір тексту Studio у футері */
+.logo-span-footer {
+  color: #f4f4fd;
 }
 
 /* NAV */
-.main-nav a {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -53,8 +55,8 @@ h1, h2, h3, p {
   text-decoration: none;
 }
 
-.main-nav a:hover,
-.main-nav a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -100,7 +102,6 @@ h1, h2, h3, p {
   color: #ffffff;
   border: none;
   cursor: pointer;
-
 }
 
 .hero-button:hover,
@@ -110,7 +111,7 @@ h1, h2, h3, p {
 
 
 /*ADVANTAGES*/
-.advantages .advantage-title {
+.advantage-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -118,7 +119,7 @@ h1, h2, h3, p {
   color: #2e2f42;
 }
 
-.advantages .advantage-text {
+.advantage-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -160,16 +161,7 @@ h1, h2, h3, p {
 }
 
 
-
 /*OUR PORTFOLIO*/
-.our-portfolio {
-  background-color: #F4F4FD;
-}
-
-.portfolio-item {
-  background-color: #FFFFFF;
-}
-
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -179,13 +171,16 @@ h1, h2, h3, p {
   color: #2e2f42;
 }
 
+.portfolio-item {
+  background-color: #FFFFFF;
+}
+
 .portfolio-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-transform: capitalize;
 }
 
 .portfolio-type {
@@ -196,17 +191,12 @@ h1, h2, h3, p {
 }
 
 /*FOOTER*/
-:root {
-  --text-light: #F4F4FD;
-}
-
 .site-footer {
   background-color: #2e2f42;
-  color: var(--text-light);
 }
+
 .footer-desc {
-  max-width: 264px;
   line-height: 1.5;
-  color: var(--text-light);
+  color: #F4F4FD;
   letter-spacing: 0.02em;
 }
